@@ -7,6 +7,11 @@
 	<body>
 		<header class="main-header">
 			<div class="container">
+			<div class="logo">
+					<a href="#">
+						<img src="logo.png" width="130" height="50">
+					</a>
+				</div>
 				<nav class="main-navigation">
 					<ul>
 						<li>
@@ -41,47 +46,35 @@
 					<a href="#">Магазин</a>
 				</li>
 				<li class="active-crumbs">
-					<a href="#">Средства для ухода</a>
+					<p>Средства для ухода</p>
 				</li>
 			</ul> 
 			<div class="catalog">
 				<div class="filter">
 					<form action="" method="get">
-						<div class="filter-property">
-							<label> baxter of california
-								<input type="checkbox" value="baxter of california" name="manufacture" checked>
-							</label>
-							<label> mr natty
-								<input type="checkbox" value="mr natty" name="manufacture">
-							</label>
-							<label> suavecito
-								<input type="checkbox" value="suavecito" name="manufacture" checked>
-							</label>
-							<label> malin-goetz
-								<input type="checkbox" value="malin-goetz" name="manufacture">
-							</label>
-							<label> myrray's
-								<input type="checkbox" value="myrray's" name="manufacture">
-							</label>
-							<label> american crew
-								<input type="checkbox" value="american crew" name="manufacture" checked>
-							</label>
-						</div>
-						<div class="filter-property">
-							<label> бритвенные принадлежности
-								<input type="radio" value="бритвенные принадлежности" name="product-type">
-							</label>
-							<label> средства для ухода
-								<input type="radio" value="средства для ухода" name="product-type" checked>
-							</label>
-							<label> аксессуары
-								<input type="radio" value="аксессуары" name="product-type">
-							</label>
-						</div>
-						<input type="submit" value="Показать">
+							<input id="baxterofcalifornia" type="checkbox" value="baxter of california" name="manufacture" checked>
+							<label for="baxterofcalifornia">baxter of california</label>
+							
+							<input id="mrnatty" type="checkbox" value="baxter of california" name="manufacture" checked>
+							<label for="mrnatty">mr natty</label>
+							<input id="suavecito" type="checkbox" value="baxter of california" name="manufacture" checked>
+							<label for="suavecito">suavecito</label>
+							<input id="malin-goetz" type="checkbox" value="baxter of california" name="manufacture" checked>
+							<label for="malin-goetz">malin-goetz</label>
+							<input id="myrrays" type="checkbox" value="baxter of california" name="manufacture" checked>
+							<label for="myrrays">myrray's</label>
+							<input id="americancrew" type="checkbox" value="baxter of california" name="manufacture" checked>
+							<label for="americancrew">american crew</label>
+							<input id="Shavingaccessories" type="radio" value="бритвенные принадлежности" name="product-type">
+							<label for="Shavingaccessories">бритвенные принадлежности</label>
+							<input id="tocare" type="radio" value="средства для ухода" name="product-type">
+							<label for="tocare">средства для ухода</label>
+							<input id="accessories" type="radio" value="аксессуары" name="product-type">
+							<label for="accessories">аксессуары</label>
+							<button type="submit">Показать
+							</button>
 					</form>
 				</div>
-				<div class="catalog-list">
 					<div class="catalog-items">
 						<div class="item">
 							<a href="#">
@@ -89,10 +82,7 @@
 							</a>
 							<div class="item-fullname">
 								<a href="#" class="item-name" > 
-									Набор для путешествий
-								</a>
-								<a href="#" class="item-manufacture" > 
-									baxter of california
+									Набор для путешествий <span class="item-manufacture">baxter of california</span>
 								</a>
 							</div>
 							<div class="price">
@@ -110,10 +100,8 @@
 							</a>
 							<div class="item-fullname">
 								<a href="#" class="item-name" > 
-									Увлажняющий кондиционер
-								</a>
-								<a href="#" class="item-manufacture" > 
-									baxter of california
+									Увлажняющий кондиционер <span class="item-manufacture">baxter of california
+									</span>
 								</a>
 							</div>
 							<div class="price">
@@ -131,10 +119,7 @@
 							</a>
 							<div class="item-fullname">
 								<a href="#" class="item-name" > 
-									Гель для волос
-								</a>
-								<a href="#" class="item-manufacture" > 
-									Suavecito
+									Гель для волос <span class="item-manufacture">Suavecito</span>
 								</a>
 							</div>
 							<div class="price">
@@ -152,10 +137,7 @@
 							</a>
 							<div class="item-fullname">
 								<a href="#" class="item-name" > 
-									Глина для укладки волос
-								</a>
-								<a href="#" class="item-manufacture" > 
-									American crew
+									Глина для укладки волос <span class="item-manufacture">American crew</span>
 								</a>
 							</div>
 							<div class="price">
@@ -173,10 +155,7 @@
 							</a>
 							<div class="item-fullname">
 								<a href="#" class="item-name" > 
-									Гель для волос
-								</a>
-								<a href="#" class="item-manufacture" > 
-									American crew
+									Гель для волос <span class="item-manufacture">American crew</span>
 								</a>
 							</div>
 							<div class="price">
@@ -194,10 +173,8 @@
 							</a>
 							<div class="item-fullname">
 								<a href="#" class="item-name" > 
-									Набор для бритья
-								</a>
-								<a href="#" class="item-manufacture" > 
-									baxter of california
+									Набор для бритья <span class="item-manufacture">baxter of california
+									</span>
 								</a>
 							</div>
 							<div class="price">
@@ -208,8 +185,6 @@
 									купить
 								</button>
 							</div>
-
-
 						</div>
 					</div>
 					<ul class="pagination">
@@ -226,8 +201,6 @@
 							<a href="#">4</a>
 						</li>
 					</ul>
-				</div>
-
 			</div>
 		</main>
 		<footer class="main-footer">
