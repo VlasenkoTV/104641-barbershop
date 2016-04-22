@@ -1,6 +1,6 @@
 body {
 	font-size: 14px;
-	font-style: bold;
+	font-weight: bold;
 	height: 24px;
 	color: #000000;
 	font-family: "PT Sans Narrow Bold";
@@ -8,18 +8,12 @@ body {
 
 h1 {
 	font-size: 30px;
-	font-style: bold;
 	height: 42px;
-	color: #000000;
-	font-family: "PT Sans Narrow Bold";
 }
 
 h2 {
 	font-size: 24px;
-	font-style: bold;
 	height: 30px;
-	color: #000000;
-	font-family: "PT Sans Narrow Bold";
 }
 
 
